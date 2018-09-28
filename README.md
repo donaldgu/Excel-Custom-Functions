@@ -16,7 +16,7 @@ Learn how to use custom functions in Excel (similar to user-defined functions, o
 
 * Oct 27, 2017: Initial version.
 * April 23, 2018: Revised and expanded.
-* June 1, 2018: Bug fixes.
+* June 1, 2018: Bug fixes..
 
 ## Prerequisites
 
