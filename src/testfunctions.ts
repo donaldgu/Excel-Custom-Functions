@@ -5,6 +5,9 @@
  * @helpUrl https://dev.office.com
  * @CustomFunction
  * @notfound test123
+ * @volatile
+ * @streaming cancelable
+ * @return {returntypetest}
  */
 function add(first: number, second: number): number {
     return first + second;
@@ -20,4 +23,19 @@ function bad(one: string[][], x: Array<Array<number>>): string[][] {
 }
 
 function notadded() {
+}
+
+/**
+ * Testing boolean
+ * @CustomFunction
+ */
+function testbool(abc: boolean): string {
+    return "";
+}
+
+/**
+ * @CustomFunction
+ */
+function testdatetime(d: number): string {
+    return "";
 }
